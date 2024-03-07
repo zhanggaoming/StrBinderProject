@@ -1,2 +1,4 @@
 # StrBinderProject
-C语言编写binder通讯服务端和客户端，用于记录代码
+C语言编写binder通讯服务端和客户端，用于记录代码。
+
+使用CLion(ide)配好NDK交叉编译链，再使用cmake编译运行在开了root权限的android9模拟器上，实现了自己的一个字符串服务，注册到系统的servicemanager中，再实现了客户端调用，测试binder通讯。
