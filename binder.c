@@ -12,14 +12,10 @@
 #include <sys/mman.h>
 #include <unistd.h>
 
-#include "android/log.h"
-//#include <log/log.h>
-
 #include "binder.h"
+#define ALOGE(format, ...) printf(format, ##__VA_ARGS__)
 
 #define MAX_BIO_SIZE (1 << 30)
-
-
 
 #define TRACE 0
 

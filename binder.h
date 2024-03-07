@@ -1,14 +1,13 @@
+/* Copyright 2008 The Android Open Source Project
+ */
+
 #ifndef _BINDER_H_
 #define _BINDER_H_
-
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>
 #include <sys/ioctl.h>
 #include <linux/android/binder.h>
-
-
-#define ALOGE(format, ...) printf(format, ##__VA_ARGS__)
 
 struct binder_state;
 
